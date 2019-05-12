@@ -1,12 +1,28 @@
+# HackBJ Repository (HelloWorld)
+
 # Children Emotion detector
-We are  Powered by OpenCV and Deep Learning.
+
+## Hello World,
+
+We aim to help parents understand more about their children's emotions and mental well-being through seamless tracking of the emotions and FFT of the children. 
+
+Powered by OpenCV and Deep Learning.
 
 Special thanks to:
 
-Reference: https://github.com/petercunha/Emotion.git
-## Installation
+Reference: https://github.com/petercunha/Emotion.git, StackOverFlow, SegmentFault
 
-cd Emotion/
+## Installation and Execution
+
+cd children-emotion
+python3 fft.py 
+python3 emotions.py 
+
+## The fft is to track the Fast Fourier Transform (High FF)
+
+## The emotions is a computer vision to track emotions
+
+
 ```
 
 Install these dependencies with `pip3 install <module name>`
@@ -48,3 +64,6 @@ The model used is from this [research paper](https://github.com/oarriaga/face_cl
 * Neural network scaffolding powered by Keras with Tensorflow.
 * Convolutional Neural Network (CNN) deep learning architecture is from this [research paper](https://github.com/oarriaga/face_classification/blob/master/report.pdf).
 * Pretrained Keras model and much of the OpenCV code provided by GitHub user [oarriaga](https://github.com/oarriaga).
+
+Future Improvement
+## Baby crying will last more than 93 seconds (Factor these facts to get more accurate baby cry detection)

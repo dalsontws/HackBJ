@@ -87,7 +87,7 @@ frames = []
 # Loop so program doesn't end while the stream callback's
 # itself for new data
 while keep_going:
-    if freq['max'] >= 0.14 and freq['min'] <= -0.06:
+    if freq['max'] >= 0.145 and freq['min'] <= -0.06:
         applescript = """
         display dialog "CRYING!" ¬
         with title "Alert" ¬

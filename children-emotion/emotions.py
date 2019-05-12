@@ -9,7 +9,8 @@ from utils.inference import apply_offsets
 from utils.preprocessor import preprocess_input
 from datetime import datetime
 
-USE_WEBCAM = True # If false, loads video file source
+# USE_WEBCAM = True # If false, loads video file source
+USE_WEBCAM = False # If false, loads video file source
 
 # parameters for loading data and images
 emotion_model_path = './models/emotion_model.hdf5'
@@ -39,7 +40,7 @@ cap = None
 if (USE_WEBCAM == True):
     cap = cv2.VideoCapture(0) # Webcam source
 else:
-    cap = cv2.VideoCapture('./video.mp4') # Video file source
+    cap = cv2.VideoCapture('./Training Model.mp4') # Video file source
 
 with open('filesnamebaby.csv', 'a') as f:
     f.write("emotion, precent,\n")

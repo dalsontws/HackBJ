@@ -65,5 +65,5 @@ The model used is from this [research paper](https://github.com/oarriaga/face_cl
 * Convolutional Neural Network (CNN) deep learning architecture is from this [research paper](https://github.com/oarriaga/face_classification/blob/master/report.pdf).
 * Pretrained Keras model and much of the OpenCV code provided by GitHub user [oarriaga](https://github.com/oarriaga).
 
-Future Improvement
+# Future Improvement
 ## Baby crying will last more than 93 seconds (Factor these facts to get more accurate baby cry detection)

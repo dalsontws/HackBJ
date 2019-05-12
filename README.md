@@ -38,7 +38,7 @@ Install these dependencies with `pip3 install <module name>`
 
 Once the dependencies are installed, you can run the project.
 `python3 emotions.py`
-
+```
 
 ## To train new models for emotion classification
 

@@ -20,6 +20,21 @@ python3 emotions.py
 
 ## The fft is to track the Fast Fourier Transform (High FF)
 
+Cry signals can be described by their features within two common domains: (1) the time domain and (2) frequency domain. From either of the mentioned domains, a number of significant characteristics can be extracted (Scherer, 1982). In this section, we describe the different domain features applied at different levels of our work.
+
+1. Time-domain features
+a. Intensity.
+The intensity is also called the loudness, and it is related to the amplitude of the signal. It represents the amount of energy a sound has per unit area. The intensity is defined by the logarithmic measure of a signal section of length N in decibels as follows:
+
+I=10  log (∑n=1Ns2(n)w(n)),
+
+where w is a window function and s(n) is the amplitude of the signal.
+
+Intensity is an essential feature widely used in different applications, such as music mood detection, and an accuracy rate of 99% is achieved, proving the good performance of intensity features.
+
+This model is backed by the research paper by Scherer K. R. (1982). “ The assessment of vocal expression in infants and children,” in Measuring Emotions in Infants and Children.
+
+
 ## The emotions is a computer vision to track emotions
 
 
@@ -66,4 +81,6 @@ The model used is from this [research paper](https://github.com/oarriaga/face_cl
 * Pretrained Keras model and much of the OpenCV code provided by GitHub user [oarriaga](https://github.com/oarriaga).
 
 # Future Improvement
-## Baby crying will last more than 93 seconds (Factor these facts to get more accurate baby cry detection)
+## Baby crying will last more than 93ms (Factor these facts to get more accurate baby cry detection)
+
+

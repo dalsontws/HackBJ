@@ -1,8 +1,10 @@
 # HackBJ Repository (HelloWorld)
 
+![Team](https://github.com/dalsontws/HackBJ/blob/master/docs/team.jpg)
+
 # Children Emotion detector
 
-## Hello World,
+## We are HelloWorld!
 
 We aim to help parents understand more about their children's emotions and mental well-being through seamless tracking of the emotions and FFT of the children. 
 
